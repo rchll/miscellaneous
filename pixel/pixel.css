@@ -1,0 +1,25 @@
+.pen {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;
+}
+
+#canvas {
+  display: table;
+  border-spacing: 1px;
+  background-color: #000;
+  border: 5px solid #000;
+}
+
+.row {
+  display: table-row;
+}
+
+
+.pixel {
+  display: table-cell;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+}
