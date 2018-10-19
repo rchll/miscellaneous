@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+#keypad {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30vw;
+}
+
+.row {
+  text-align: center;
+  border: 1px solid #000;
+  font-size: 8vh;
+  font-family: sans-serif;
+  overflow: scroll;
+}
+
+button {
+  border: none;
+  font-size: 10vh;
+  padding: 0 2.5vh;
+  background: #fff;
+}
+
+button:active {
+  background: #339fff;
+}
+
+#congrats {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20vh;
+  text-align: center;
+}
+
+@keyframes bye {
+  100% {opacity: 0;}
+}
+
+@keyframes hi {
+  100% {opacity: 1;}
+}

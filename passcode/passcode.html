@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+      <title>passcode</title>
+      <link rel="stylesheet" href="passcode.css">
+      <script type="text/javascript" src="passcode.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="keypad">
+        <div class="row">
+          <h3 id="inputstr"></h3>
+        </div>
+        <div class="row">
+          <button onclick="add(this.innerText)">1</button>
+          <button onclick="add(this.innerText)">2</button>
+          <button onclick="add(this.innerText)">3</button>
+        </div>
+        <div class="row">
+          <button onclick="add(this.innerText)">4</button>
+          <button onclick="add(this.innerText)">5</button>
+          <button onclick="add(this.innerText)">6</button>
+        </div>
+        <div class="row">
+          <button onclick="add(this.innerText)">7</button>
+          <button onclick="add(this.innerText)">8</button>
+          <button onclick="add(this.innerText)">9</button>
+        </div>
+        <div class="row">
+          <button onclick="add(this.innerText)">0</button>
+        </div>
+      </div>
+      <div id="congrats">
+        <p>CONGRATS YOU PASSED</p>
+      </div>
+    </div>
+  </body>
+</html>
