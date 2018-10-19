@@ -1,0 +1,29 @@
+.container{
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    margin-top: 45vh;
+    margin-left: 45vw;
+    display: inline-block;
+    
+}
+
+.num {
+    font-family: 'Gugi', cursive;
+    font-size: 30px;
+    position: relative;
+    animation: spin 5s; 
+    bottom: 4707px;
+    text-align: right;
+}
+
+.percent{
+    font-family: 'Gugi', cursive;
+    font-size: 30px;
+    display: inline-block;
+}
+
+@keyframes spin{
+    from{bottom:0;}
+    to{bottom:4707px;}
+}
