@@ -1,0 +1,34 @@
+.container{
+    width: 42vw;
+    height: 4vh;
+    margin: 48vh 29vw;
+}
+
+.simple{
+    background-color: #00d8ee;
+    width: 40vw;
+    height: 2vh;
+    position: absolute;
+    margin: 1vh 0.5vw;
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    z-index: 10;
+    
+}
+
+.box{
+    background-color: #fff;
+    width: 41vw;
+    height: 4vh;
+    position: absolute;
+}
+
+@keyframes appear{
+    from{width: 0;}
+    to{width: 40vw;}
+}
+
+body{
+    background-color: #efefef;
+}
