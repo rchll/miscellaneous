@@ -1,0 +1,15 @@
+.simple{
+    background-color: #00d8ee;
+    width: 40vw;
+    height: 2vh;
+    margin: 49vh 30vw;
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    
+}
+
+@keyframes appear{
+    from{width: 0;}
+    to{width: 40vw;}
+}
